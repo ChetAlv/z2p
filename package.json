@@ -1,0 +1,19 @@
+{
+  "name": "zip2pdf",
+  "version": "1.0.0",
+  "description": "convert images in zip to one pdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "zip2pdf": "index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "image-size": "^1.0.0",
+    "node-stream-zip": "^1.15.0",
+    "pdfkit": "^0.13.0"
+  }
+}
